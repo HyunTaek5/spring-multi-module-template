@@ -2,7 +2,7 @@ package com.template.common.response;
 
 import org.springframework.lang.Nullable;
 
-public class PagingResponse {
+public class PaginatedResponse {
     private int currentPage;
     private int totalCount;
     @Nullable
@@ -33,12 +33,12 @@ public class PagingResponse {
         this.payload = payload;
     }
 
-    public PagingResponse() {
+    public PaginatedResponse() {
         this.currentPage = 0;
         this.totalCount = 0;
     }
 
-    public PagingResponse(int currentPage, int totalCount, Object payload) {
+    public PaginatedResponse(int currentPage, int totalCount, Object payload) {
         this.currentPage = currentPage;
         this.totalCount = totalCount;
         this.payload = payload;
