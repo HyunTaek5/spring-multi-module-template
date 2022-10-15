@@ -23,7 +23,7 @@ public class AuthController {
 
   private final AuthService authService;
 
-  @PostMapping(value = "/sign-up")
+  @PostMapping(value = "/signup")
   public ResponseEntity<UserRes> signUp (
       @RequestBody UserReq userReq
   ) {
@@ -31,7 +31,7 @@ public class AuthController {
   }
 
   // 로그인
-  @PostMapping("/sign-in")
+  @PostMapping("/login")
   public ResponseEntity<LoginRes> logIn(
       @Valid @RequestBody LoginDto.LoginReq loginDto
   ) {
