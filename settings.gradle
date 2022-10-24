@@ -1,5 +1,5 @@
 rootProject.name = 'SpringBootTemplate'
 include 'domain'
 include 'api'
-include 'application'
+include 'service'
 

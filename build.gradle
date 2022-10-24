@@ -41,7 +41,7 @@ subprojects {
     }
 }
 
-project(":application") {
+project(":service") {
     dependencies {
         api project(":domain")
     }
@@ -50,6 +50,6 @@ project(":application") {
 project(":api") {
     dependencies {
         api project(":domain")
-        api project(":application")
+        api project(":service")
     }
 }
