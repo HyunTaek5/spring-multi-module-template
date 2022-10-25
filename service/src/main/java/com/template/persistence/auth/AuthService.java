@@ -1,6 +1,7 @@
-package com.template.persistence.user;
+package com.template.persistence.auth;
 
 import com.template.common.security.jwt.JwtProvider;
+import com.template.persistence.user.UserService;
 import com.template.persistence.user.dao.UserRepository;
 import com.template.persistence.user.dto.LoginDto.LoginReq;
 import com.template.persistence.user.dto.LoginDto.LoginRes;

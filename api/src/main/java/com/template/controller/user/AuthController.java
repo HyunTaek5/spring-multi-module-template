@@ -1,6 +1,6 @@
 package com.template.controller.user;
 
-import com.template.persistence.user.AuthService;
+import com.template.persistence.auth.AuthService;
 import com.template.persistence.user.dto.LoginDto;
 import com.template.persistence.user.dto.LoginDto.LoginRes;
 import com.template.persistence.user.dto.UserDto.UserReq;
